@@ -11,7 +11,7 @@ class Header extends Component {
           <input type="checkbox" id="chk" />
           <label for="chk" className="show-menu-btn">
             <FontAwesomeIcon className="icon" icon="bars" />
-            <Link to="/">LOGO</Link>
+            <Link to="/">London b&b</Link>
           </label>
           <Link className="btn-reserver-mobile" to="/">
             Réserver

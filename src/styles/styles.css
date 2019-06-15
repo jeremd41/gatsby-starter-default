@@ -92,7 +92,7 @@ a {
 .btn-reserver:hover {
   background: #eab543;
   color: #fff;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .menu li a:hover,
@@ -175,9 +175,8 @@ input {
 }
 .formresa button:hover {
   background: #eab543;
-  box-shadow: 1px 1px 10px #111;
   cursor: pointer;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 /* ---- FOOTER ----*/
@@ -209,7 +208,7 @@ footer p {
   height: 45px;
   width: 150px;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
   margin-top: 35px;
 }
 
@@ -229,9 +228,15 @@ footer p {
   cursor: pointer;
 }
 
+.btncontact:hover {
+  background: #eab543;
+  transition: 0.5s;
+}
+
 /* ---- RESPONSIVE ----*/
-/* ---- HEADER ----*/
+
 @media screen and (max-width: 762px) {
+  /* ---- HEADER ----*/
   .show-menu-btn {
     display: block;
     height: 100px;
@@ -280,7 +285,7 @@ footer p {
   }
 
   .menu {
-    z-index: 3;
+    z-index: 6;
     position: fixed;
     display: block;
     width: 100%;
@@ -302,10 +307,6 @@ footer p {
     border-bottom: 1px solid #fff;
   }
 
-  .formresa {
-    display: none;
-  }
-
   .hide-menu-btn {
     position: absolute;
     top: 40px;
@@ -321,15 +322,27 @@ footer p {
   #chk:checked ~ .menu {
     left: 0;
   }
-}
 
-/* ---- FOOTER ----*/
+  /* ---- BODY INDEX ----*/
 
-.contact {
-  display: block;
-}
+  .formresa {
+    background: inherit;
+    margin: 445px 45px;
+    font-size: 18px;
+  }
 
-.btncontact {
-  display: block;
-  margin: 15px auto;
+  /* ---- FOOTER ----*/
+
+  footer {
+    margin-top: 150px;
+  }
+
+  .contact {
+    display: block;
+  }
+
+  .btncontact {
+    display: block;
+    margin: 15px auto;
+  }
 }
