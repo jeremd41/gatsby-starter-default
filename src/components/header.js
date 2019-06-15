@@ -21,19 +21,19 @@ class Header extends Component {
               London b&b
             </Link>
             <li>
-              <Link to="/acceuil/">Accueil</Link>
+              <Link to="/">Accueil</Link>
             </li>
             <li>
-              <Link to="/">Chambres</Link>
+              <Link to="/chambres/">Chambres</Link>
             </li>
             <li>
-              <Link to="/">Tarifs</Link>
+              <Link to="/tarifs/">Tarifs</Link>
             </li>
             <li>
-              <Link to="/">A propos</Link>
+              <Link to="/about/">A propos</Link>
             </li>
             <li>
-              <Link to="/">Activités</Link>
+              <Link to="/activite/">Activités</Link>
             </li>
             <Link className="btn-reserver" to="/">
               Réserver

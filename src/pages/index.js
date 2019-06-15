@@ -11,7 +11,7 @@ library.add(faBars, faTimes, faCalendar)
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Acceuil" />
     <Carousel />
     <form className="formresa">
       <h2>Réserver votre séjour !</h2>
@@ -26,8 +26,7 @@ const IndexPage = () => (
       <label>
         Départ
         <span className="calendar">
-          {" "}
-          <FontAwesomeIcon icon="calendar" />{" "}
+          <FontAwesomeIcon icon="calendar" />
         </span>
       </label>
       <input type="date" />

@@ -156,6 +156,7 @@ input {
 .formresa button {
   display: block;
   font-size: 14px;
+  text-transform: uppercase;
   border: none;
   color: #fff;
   background: #111;
@@ -327,15 +328,38 @@ footer p {
 
   .formresa {
     background: inherit;
-    margin: 445px 45px;
-    font-size: 18px;
+    width: 90%;
+    position: relative;
+    margin: 1px auto;
+    font-size: 20px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .formresa h2 {
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .formresa input {
+    height: 35px;
+    margin: 1px auto;
+    font-size: 20px;
+    width: 90%;
+    max-width: 100%;
+    border: 1px solid #111;
+  }
+
+  .nbperson {
+    margin: 45px 35px;
+  }
+
+  .nbperson input {
+    width: 10%;
+    margin-left: 5px;
   }
 
   /* ---- FOOTER ----*/
-
-  footer {
-    margin-top: 150px;
-  }
 
   .contact {
     display: block;

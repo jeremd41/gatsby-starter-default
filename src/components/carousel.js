@@ -14,6 +14,10 @@ const Container = styled.div`
   overflow: hidden;
   width: 100%;
   height: 580px;
+
+  @media screen and (max-width: 762px) {
+    height: 300px;
+  }
 `
 const CarouselUI = ({ children }) => <Container>{children}</Container>
 const Carousel = makeCarousel(CarouselUI)
