@@ -13,12 +13,13 @@ const Chambres = () => (
     <Fade left>
       <div className="wrapper">
         <div className="head-pages">
-          <h1>Cadre</h1>
+          <h1>Services</h1>
           <img className="responsive" src={Cadre} />
         </div>
         <div className="service">
           <ul>
             <li>Cuisine locale</li>
+            <li>Excursions</li>
             <li>Salle de sport</li>
             <li>Balcon</li>
             <li>Parking</li>
