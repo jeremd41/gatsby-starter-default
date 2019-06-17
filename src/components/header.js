@@ -24,13 +24,10 @@ class Header extends Component {
               <Link to="/">Accueil</Link>
             </li>
             <li>
-              <Link to="/chambres/">Chambres</Link>
+              <Link to="/cadre/">Services</Link>
             </li>
             <li>
               <Link to="/tarifs/">Tarifs</Link>
-            </li>
-            <li>
-              <Link to="/about/">A propos</Link>
             </li>
             <li>
               <Link to="/activite/">Activités</Link>

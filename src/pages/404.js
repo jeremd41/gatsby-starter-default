@@ -17,10 +17,12 @@ const H1 = styled.div`
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <Container>
-      <H1>404 error - NOT FOUND</H1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </Container>
+    <div className="wrapper">
+      <Container>
+        <H1>404 error - NOT FOUND</H1>
+        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      </Container>
+    </div>
   </Layout>
 )
 

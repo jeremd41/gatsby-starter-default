@@ -23,9 +23,34 @@ a {
   cursor: pointer;
 }
 
+.wrapper {
+  max-width: 924px;
+  margin: 0 auto;
+}
+
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.head-pages {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.head-pages img {
+  max-width: 600px;
+  max-height: 304px;
+}
+
+.head-pages h1 {
+  text-align: center;
+  padding-top: 250px;
+  color: #fff;
+  width: 224px;
+  height: 304;
+  background: #eab543;
 }
 
 /* ---- HEADER ----*/
@@ -178,6 +203,31 @@ input {
   background: #eab543;
   cursor: pointer;
   transition: 0.5s;
+}
+
+/* ---- BODY Services ----*/
+
+.service {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.service img {
+  max-height: 600px;
+  max-width: 400px;
+}
+
+.service ul {
+  height: 600px;
+  width: 400px;
+  margin: auto 0;
+  border: 1px solid #111;
+}
+
+.service li {
+  padding: auto;
+  margin: 25px;
 }
 
 /* ---- FOOTER ----*/
@@ -357,6 +407,11 @@ footer p {
   .nbperson input {
     width: 10%;
     margin-left: 5px;
+  }
+  /* ---- BODY Services ----*/
+
+  .services {
+    display: block;
   }
 
   /* ---- FOOTER ----*/
