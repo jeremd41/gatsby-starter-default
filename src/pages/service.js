@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const Chambres = () => (
   <Layout>
     <SEO title="Service" />
-    <Fade left>
+    <Fade right>
       <div className="wrapper">
         <div className="head-pages">
           <h1>Services</h1>

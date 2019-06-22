@@ -5,7 +5,7 @@ body {
 /* ----               GENERAL              ----*/
 
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
-@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
 
 a {
   color: #fff;
@@ -54,12 +54,14 @@ a {
   background: #eab543;
 }
 
-/* ---- HEADER ----*/
+/* ----             HEADER               ----*/
 
 .logo {
   flex: 5;
   line-height: 100px;
+  font-size: 24px;
   text-transform: uppercase;
+  font-family: "Abril Fatface", cursive;
 }
 
 .menu {
@@ -138,7 +140,7 @@ a {
   padding: 0 15px;
 }
 
-/* ---- BODY Index ----*/
+/* ----             BODY Index             ----*/
 .formresa {
   z-index: 3;
   position: absolute;
@@ -231,7 +233,17 @@ input {
   margin: 25px;
 }
 
-/* ---- FOOTER ----*/
+/* ----             BODY Tartifs              ----*/
+.card-room {
+  margin: 25px auto;
+  width: 92%;
+}
+
+.card-room a {
+  color: black;
+}
+
+/* ----               FOOTER               ----*/
 footer {
   width: 80%;
   position: relative;
@@ -323,6 +335,9 @@ footer p {
   .show-menu-btn a {
     margin-right: 25px;
     line-height: 100px;
+    float: right;
+    font-size: 20px;
+    font-family: "Abril Fatface", sans-serif;
   }
 
   .icon {
@@ -376,9 +391,6 @@ footer p {
   }
 
   .show-menu-btn a {
-    float: right;
-    font-size: 20px;
-    font-family: "Oxygen", sans-serif;
   }
 
   #chk:checked ~ .menu {
@@ -424,6 +436,7 @@ footer p {
   .service {
     display: block;
     max-width: 100%;
+    margin: 0px auto;
   }
 
   .service ul {
